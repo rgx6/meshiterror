@@ -1,0 +1,20 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="「おなかすいた」とか「○○食べたい」とかツイートしている人に飯テロ画像を送りつけるための非人道的なアプリです。エアリプ推奨。")
+    meta(name="keywords", content="飯テロ,Twitter,ツイッター,スタンプ")
+    meta(name="robots", content="index,follow")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title 飯テロスタンプ for Twitter
+    link(href="css/index.css?d=20170319", rel="stylesheet")
+    script(src="js/index.js?d=20170319", defer)
+    // link(rel="icon", href="/images/favicon.png", type="image/png")
+  body
+    div
+      h1.title 飯テロスタンプ for Twitter
+    div.icon-home.clearfix
+      include _photo
+    div.footer
+      p &copy; 2017 rgx
+        a(href="https://twitter.com/rgx_6") @rgx_6

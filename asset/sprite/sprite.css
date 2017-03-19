@@ -1,0 +1,348 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-image001 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image002 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image003 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image004 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image005 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image006 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image007 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image008 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image009 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image101 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image102 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image103 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image104 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image105 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image201 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image202 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image203 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image204 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image301 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image302 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image303 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image304 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image305 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image306 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image307 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image308 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image401 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image402 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image403 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image404 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image405 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px 0px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image406 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -225px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image501 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -450px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image502 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -675px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image601 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -900px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image602 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -1125px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image603 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image604 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -1350px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image605 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image606 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image607 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image608 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -1125px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image609 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -900px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image610 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -675px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image611 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -450px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image612 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -900px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image613 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px -225px;
+  width: 168px;
+  height: 225px;
+}
+.icon-image614 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image615 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1200px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image616 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -600px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image617 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image618 {
+  background-image: url(/img/sprite.jpg);
+  background-position: 0px -1575px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image619 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1500px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image901 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -300px -1350px;
+  width: 300px;
+  height: 225px;
+}
+.icon-image902 {
+  background-image: url(/img/sprite.jpg);
+  background-position: -1800px 0px;
+  width: 300px;
+  height: 225px;
+}
