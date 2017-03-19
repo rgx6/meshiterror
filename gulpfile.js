@@ -103,9 +103,6 @@ gulp.task('build', ['pug', 'js', 'css', 'img'], function () {
 
     gulp.src('src/public/**/*.html')
         .pipe(gulp.dest('dest/public'));
-
-    gulp.src('src/views/**/*.pug')
-        .pipe(gulp.dest('dest/views'));
 });
 
 gulp.task('watch', function () {
